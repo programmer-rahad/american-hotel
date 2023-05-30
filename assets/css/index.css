@@ -62,6 +62,7 @@ label {
     cursor: pointer
 }
 
+textarea,
 input {
     width: 100%;
     outline: none;
@@ -154,6 +155,13 @@ video {
     border-bottom-color: #b78746
 }
 
+.button-3 {
+    background-color: #C08C14;
+    padding: 8px 23px;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
 .pair-border {
     position: relative
 }
@@ -204,6 +212,14 @@ video {
 
 .container-7 {
     max-width: 1320px;
+}
+
+.container-8 {
+    max-width: 1134px;
+}
+
+.container-9 {
+    max-width: 985px;
 }
 
 .offcanvas {
@@ -283,7 +299,8 @@ video {
 }
 
 .nice-select {
-    border: 0
+    border: 0;
+    padding-left: 0;
 }
 
 .box-shadow {
@@ -323,6 +340,10 @@ video {
     font-weight: 500;
     color: #112F3C;
     margin-bottom: 100px;
+}
+
+.scroll-to-top:hover {
+    color: #112F3C;
 }
 
 .scroll-to-top span {
@@ -461,7 +482,10 @@ nav ul li:hover>a,
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 8px solid #09181c
+}
+
+.welcome-content:not(.welcome-page-content) {
+    border-bottom: 8px solid #09181c;
 }
 
 .welcome-content::before,
@@ -506,6 +530,11 @@ nav ul li:hover>a,
     position: relative;
     margin-bottom: -99px;
     z-index: 1
+}
+
+.book-now-wrapper .book-now {
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, .1);
+    background-color: #fff;
 }
 
 .book-now {
@@ -971,7 +1000,7 @@ nav ul li:hover>a,
 }
 
 .footer-social-icons a {
-    margin-right: 30px
+    margin-left: 30px
 }
 
 .quick-links li {
@@ -1007,7 +1036,8 @@ nav ul li:hover>a,
 }
 
 .footer-button {
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    text-align: right;
 }
 
 .footer-button .button {
@@ -1159,6 +1189,12 @@ nav ul li:hover>a,
     min-height: 650px;
 }
 
+.welcome-page-content h4 {
+    font-size: 25px;
+    color: #F5B623;
+    letter-spacing: 2px;
+}
+
 .welcome-page-content::before {
     display: none;
 }
@@ -1213,4 +1249,403 @@ nav ul li:hover>a,
 
 .see-us .add-page p {
     margin-top: 0;
+}
+
+.room-suites-content {}
+
+.room-suites-content .owl-prev,
+.room-suites-content .owl-next {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.room-suites-content .owl-prev img,
+.room-suites-content .owl-next img {
+    height: 100%;
+}
+
+.room-suites-content .owl-next {
+    left: auto;
+    right: 0;
+}
+
+.section-title {}
+
+.section-title span {
+    height: 2px;
+    background-color: #B88E34;
+    flex-grow: 1;
+    flex-shrink: 1;
+    position: relative;
+    display: block;
+}
+
+.section-title span::before {
+    position: absolute;
+    width: calc(100% - 15px);
+    height: 2px;
+    content: " ";
+    background-color: #B88E34;
+    top: -9px;
+    right: 0;
+}
+
+.section-title {
+    margin-bottom: 15px;
+}
+
+.room-suites-content .section-title {
+    margin-top: 90px;
+}
+
+.section-title h3 {
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom: 0;
+}
+
+.section-title span:last-child:before {
+    right: auto;
+    left: 0;
+}
+
+.single-room {
+    margin-bottom: 60px;
+}
+
+.single-room h4 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #112F3C;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.sr-buttons .button {
+    color: #AD8016;
+    margin: 0 5px;
+}
+
+.sr-buttons .button:hover {
+    color: #fff;
+}
+
+/* Offer */
+.offers-content {
+    padding-top: 140px;
+}
+
+.offer-item {
+    margin-bottom: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer-title {
+    font-size: 32px;
+    color: #112F3C;
+    font-weight: 400;
+    padding-top: 16px;
+}
+
+.offer-item:hover .offer-title {
+    color: #C08C14;
+}
+
+.offer-item a.button {
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    font-size: 21px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #d9a01c;
+}
+
+.offer-item:hover a.button {
+    opacity: 1;
+    visibility: visible
+}
+
+/* Contact */
+.welcome-page-diff {
+    min-height: 400px;
+}
+
+.contact {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.contact .nice-select,
+.contact input,
+.contact textarea {
+    border-bottom: 1px solid #C08C14;
+    font-family: "futura-pt", sans-serif;
+    font-size: 18px;
+    background: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: #112F3C;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.contact textarea {
+    min-height: 250px;
+    resize: none;
+}
+
+.contact .nice-select {
+    width: 100%;
+    border-radius: 0;
+    height: 51px;
+    margin-bottom: 30px;
+}
+
+.contact .nice-select::after {
+    transform: rotate(45deg) scale(2) translateX(-4px) translateY(6px);
+    border-color: #C08C14;
+}
+
+.contact .nice-select span {
+    transform: translateY(-8px);
+    display: block;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    color: #112F3C;
+    font-family: "futura-pt", sans-serif;
+}
+
+.contact-left form>div {
+    margin-bottom: 30px;
+}
+
+.contact-title {
+    font-size: 45px;
+    font-family: "bookmania", serif;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.contact-middle {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-info li {
+    margin-bottom: 12px;
+}
+
+.contact-info li strong {
+    margin-right: 8px;
+}
+
+.contact-info a {
+    color: #112F3C;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    margin-right: 40px;
+}
+
+.contact-bottom {
+    min-height: 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Directions and Parking */
+.atlanta-heart {
+    background-color: transparent;
+}
+
+.ha-img {
+    max-width: 450px;
+    margin-left: auto;
+}
+
+.atlanta-heart * {
+    color: #112F3C;
+}
+
+.atlanta-heart .row {
+    margin-top: 0px;
+}
+
+.dp-item {
+    margin-bottom: 55px;
+}
+
+.dp-item p {
+    margin-top: 15px;
+}
+
+.dp-item h4 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 19px;
+    margin-bottom: 5px;
+}
+
+.dp-content {
+    padding-bottom: 120px;
+}
+
+.parking {
+    padding-bottom: 45px;
+    border-bottom: 1px solid #C08C14;
+    margin-bottom: 40px;
+}
+
+.room-suites {
+    padding-top: 100px !important;
+}
+
+.gallery-item {
+    margin-top: 120px;
+}
+
+.gallery-content {
+    overflow-x: hidden;
+}
+
+.gallery-content .section-title {
+    margin-bottom: 20px;
+}
+
+.slider-3 .owl-item:not(.active) .gs-item {
+    position: relative;
+}
+
+.slider-3 .owl-item:not(.active) .gs-item::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .7;
+    content: " ";
+}
+
+.slider-3 .owl-stage-outer {
+    overflow: visible;
+}
+
+.slider-3 .owl-next,
+.slider-3 .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.slider-3 .owl-next {
+    left: auto;
+    right: 0;
+    transform: translateY(-50%) translateX(50%);
+}
+
+.slider-3 .owl-dots {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.slider-3 .owl-dot {
+    width: 32px;
+    height: 2px;
+    background-color: #ABBBC2 !important;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.slider-3 .owl-dot.active {
+    background-color: #C08C14 !important;
+    height: 4px;
+}
+
+.gi-para {
+    max-width: 922px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+}
+
+/* Shopping */
+.retail-therapy p {
+    margin-bottom: 0;
+}
+
+.shopping-item {
+    margin-bottom: 60px;
+}
+
+.shopping-item.diff {
+    border: 10px solid #C08C14;
+    background-color: #C08C14;
+}
+
+.shopping-item.diff h4 {
+    margin-top: 20px;
+}
+
+.shopping-item.diff p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.shopping-item.diff * {
+    color: #fff;
+}
+
+.shopping-item h4 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.shopping-item h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.scroll-top-wrapper .three-border {
+    max-width: 100%;
+}
+
+.amenite-item {
+    margin-bottom: 85px;
+}
+
+.amenite-item h4 {
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.additional-amenities {
+    min-height: 528px;
+}
+
+.outdoor-pool {
+    overflow-x: hidden;
+}
+
+.outdoor-pool h4 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 30px;
+    text-transform: capitalize
 }

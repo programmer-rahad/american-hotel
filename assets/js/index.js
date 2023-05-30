@@ -1,3 +1,5 @@
+// icon.src = icon.src.replace('close', 'open');
+// icon.src = icon.src.includes('close') ? icon.src.replace('close', 'open') : icon.src.replace('open', 'close');
 
 // Vanilla js
 
@@ -65,17 +67,13 @@ CustomAccordion.prototype.showHide = function () {
       var height = this.contents[i].children[0].offsetHeight;
       this.contents[i].style.height =
         this.contents[i].offsetHeight > 0 ? 0 : height + 'px';
-      icon.src = icon.src.includes('close') ? icon.src.replace('close', 'open') : icon.src.replace('open', 'close');
-      // this.contents[i].style.height =
-      //   this.contents[i].offsetHeight > 0 ? 0 : height + 'px';
-
     } else {
       this.titles[i].parentElement.classList.remove('active');
       this.contents[i].style.height = 0;
-      icon.src = icon.src.replace('close', 'open');
     }
   }
 }
+
 CustomAccordion.prototype.reset = function () {
   // this.getAccordionContent();
   this.showHide();
@@ -97,10 +95,16 @@ CustomAccordion.prototype.init = function () {
   // this.events();
 }
 
-var container = document.querySelector('.custom-accordion');
-if (container) {
-  var customAccordion = new CustomAccordion(container);
-  customAccordion.init();
+// icon.src = icon.src.replace('close', 'open');
+// icon.src = icon.src.includes('close') ? icon.src.replace('close', 'open') : icon.src.replace('open', 'close');
+
+var accordions = document.querySelectorAll('.custom-accordion');
+var length = accordions.length
+if (accordions.length) {
+  for (var i = 0; i < length; i++) {
+    var customAccordion = new CustomAccordion(accordions[i]);
+    customAccordion.init();
+  }
 };
 
 $(document).ready(function () {
@@ -115,6 +119,22 @@ $(document).ready(function () {
     loop: true,
   });
 
+  $(".slider-2").owlCarousel({
+    items: 1,
+    dots: false,
+    nav: true,
+    navText: ['<img src="./assets/images/room-suites/angle-left.svg" />', '<img src="./assets/images/room-suites/angle-right.svg" />'],
+    loop: true,
+  });
+
+  $(".slider-3").owlCarousel({
+    items: 1,
+    // dots: false,
+    nav: true,
+    navText: ['<img src="./assets/images/icons/angle-left.svg" />', '<img src="./assets/images/icons/angle-right.svg" />'],
+    loop: true,
+  });
+
   $(".menu-item-has-children > a").on("click", function (e) {
     if ($(window).width() <= 1199) {
       e.preventDefault();
@@ -123,7 +143,6 @@ $(document).ready(function () {
       $(this).parent().find(".sub-menu").slideToggle();
     }
   });
-
 
   var svg = $('<svg xmlns="http://www.w3.org/2000/svg" width="8.686" height="7.549" viewBox="0 0 8.686 7.549"><path id="Path_515" data-name="Path 515" d="M-14450.879-12573.819l-3.871-6.333-3.964,6.333" transform="translate(-14450.452 -12573.554) rotate(180)" fill="none" stroke="#f7f7f4" stroke-width="1"></path></svg>');
 

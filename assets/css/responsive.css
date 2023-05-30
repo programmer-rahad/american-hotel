@@ -2,6 +2,15 @@
     .quick-links-wrapper {
         margin-left: 30px
     }
+
+    .contact-left form {
+        padding-right: 22px;
+        margin-top: -30px;
+    }
+
+    .contact-right>div {
+        padding-left: 22px;
+    }
 }
 
 @media(min-width: 992px)and (max-width: 1199px) {
@@ -100,6 +109,10 @@
     .btn-book {
         display: none !important
     }
+
+    .gallery-content .container {
+        max-width: calc(100% - 100px);
+    }
 }
 
 @media(max-width: 1250.98px) {
@@ -192,6 +205,25 @@
         display: none;
     }
 
+    .contact {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .dp-content {
+        padding-bottom: 45px;
+    }
+
+    .parking {
+        padding-bottom: 10px;
+        margin-bottom: 35px;
+    }
+
+    .gallery-item .owl-next,
+    .gallery-item .owl-prev {
+        width: 35px;
+    }
+
 }
 
 @media(max-width: 991.98px) {
@@ -244,9 +276,19 @@
         padding-bottom: 110px
     }
 
+    .collaborate {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
     .collaborate-content-wrapper {
         margin-right: auto;
         margin-top: 50px
+    }
+
+    .atlanta-heart .collaborate-content-wrapper {
+        margin-top: 0;
+        margin-bottom: 50px;
     }
 
     .collaborate-content {
@@ -279,6 +321,27 @@
     .apf-accordion .accordion__title img {
         max-width: 70px;
     }
+
+    .welcome-page-content h4 {
+        font-size: 20px;
+    }
+
+    .offers-content {
+        padding-top: 95px;
+    }
+
+    .contact {
+        padding-top: 65px;
+        padding-bottom: 75px;
+    }
+
+    .contact-bottom {
+        min-height: 450px;
+    }
+
+    .contact .right {
+        margin-top: 60px;
+    }
 }
 
 @media(max-width: 767.98px) {
@@ -293,6 +356,13 @@
 
     .logo {
         max-width: 215px
+    }
+
+    .dp-item {
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 47px;
     }
 
     .eat-drink-celebrate {
@@ -351,6 +421,25 @@
     .style-3 {
         width: 140px;
     }
+
+    .room-suites-content .section-title {
+        margin-top: 70px;
+    }
+
+    .single-room {
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .offer-title {
+        font-size: 27px;
+    }
+
+    .gallery-item .owl-next,
+    .gallery-item .owl-prev {
+        width: 30px;
+    }
 }
 
 @media(max-width: 575.98px) {
@@ -369,6 +458,10 @@
 
     .welcome-content h3 {
         font-size: 19px
+    }
+
+    .welcome-page-content h4 {
+        font-size: 18px;
     }
 
     .button {
@@ -441,6 +534,23 @@
         padding-left: 55px;
         padding-right: 20px;
     }
+
+    .contact-bottom {
+        min-height: 375px;
+    }
+
+    .contact-title {
+        font-size: 38px;
+    }
+
+    .gallery-item .owl-next,
+    .gallery-item .owl-prev {
+        width: 25px;
+    }
+
+    .footer-logo {
+        max-width: 290px;
+    }
 }
 
 @media(max-width: 479.98px) {
@@ -451,6 +561,10 @@
 
     .welcome-page-content {
         min-height: 400px;
+    }
+
+    .welcome-page-content h4 {
+        font-size: 15px;
     }
 
     .social-img {
@@ -488,6 +602,15 @@
 
     .see-us .add-page .ap-txt {
         padding-left: 40px;
+    }
+
+    .footer-button .button {
+        font-size: 18px;
+        padding: 12px 30px;
+    }
+
+    .footer-social-icons img {
+        max-width: 85%;
     }
 }
 
