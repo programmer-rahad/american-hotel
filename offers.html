@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/zsi4lnl.css">
+
+    <!-- Title  -->
+    <title>Website title</title>
+
+    <!-- CSS Files  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+</head>
+
+<body>
+
+    <!-- Off Canvas Menu  -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <nav>
+          <ul>
+            <li class="menu-item-has-children">
+              <a href="#">Stay & Accommodations</a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="room_suites.html">
+                    <span>
+                      <img
+                        src="./assets/images/icons/pattern-menu.svg"
+                        alt=""
+                      />
+                    </span>
+                    Rooms & Suites
+                  </a>
+                </li>
+                <li>
+                  <a href="amenities.html">
+                    <span>
+                      <img
+                        src="./assets/images/icons/pattern-menu.svg"
+                        alt=""
+                      />
+                    </span>
+                    Amenities
+                  </a>
+                </li>
+                <li>
+                  <a href="offers.html">
+                    <span>
+                      <img
+                        src="./assets/images/icons/pattern-menu.svg"
+                        alt=""
+                      />
+                    </span>
+                    Offers
+                  </a>
+                </li>
+                <li>
+                  <a href="faq.html">
+                    <span>
+                      <img
+                        src="./assets/images/icons/pattern-menu.svg"
+                        alt=""
+                      />
+                    </span>
+                    FAQs
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="dine.html">Dine</a></li>
+            <li><a href="history.html">Our History</a></li> 
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" class="btn-book">BOOK NOW</a></li>
+          </ul>
+        </nav> 
+      </div>
+    </div>
+
+    <!-- Header Start -->
+    <header class="header_main">
+      <div class="container-fluid">
+        <div class="row d-flex align-items-center">
+          <div class="col-5 col-md-3">
+            <div class="logo">
+              <a href="index.html">
+                <img src="./assets/images/common/logo.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-7 col-md-9">
+            <div>
+              <!-- <a class="btn-book" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            Link with href
+                        </a> -->
+              <a
+                href="#offcanvasExample"
+                class="toggle-icon"
+                data-bs-toggle="offcanvas"
+              >
+                <svg class="toggle-icon" viewBox="0 0 24 24">
+                  <path
+                    d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+                  ></path>
+                </svg>
+              </a>
+              <div class="header-menu">
+                <nav>
+                  <ul>
+                    <li class="menu-item-has-children">
+                      <a href="#">Stay & Accommodations</a>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="8.686"
+                        height="7.549"
+                        viewBox="0 0 8.686 7.549"
+                      >
+                        <path
+                          id="Path_515"
+                          data-name="Path 515"
+                          d="M-14450.879-12573.819l-3.871-6.333-3.964,6.333"
+                          transform="translate(-14450.452 -12573.554) rotate(180)"
+                          fill="none"
+                          stroke="#f7f7f4"
+                          stroke-width="1"
+                        />
+                      </svg>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="room_suites.html">
+                            <span>
+                              <img
+                                src="./assets/images/icons/pattern-menu.svg"
+                                alt=""
+                              />
+                            </span>
+                            Rooms & Suites
+                          </a>
+                        </li>
+                        <li>
+                          <a href="amenities.html">
+                            <span>
+                              <img
+                                src="./assets/images/icons/pattern-menu.svg"
+                                alt=""
+                              />
+                            </span>
+                            Amenities
+                          </a>
+                        </li>
+                        <li>
+                          <a href="offers.html">
+                            <span>
+                              <img
+                                src="./assets/images/icons/pattern-menu.svg"
+                                alt=""
+                              />
+                            </span>
+                            Offers
+                          </a>
+                        </li>
+                        <li>
+                          <a href="faq.html">
+                            <span>
+                              <img
+                                src="./assets/images/icons/pattern-menu.svg"
+                                alt=""
+                              />
+                            </span>
+                            FAQs
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="dine.html">Dine</a></li>
+                    <li><a href="history.html">Our History</a></li>
+
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" class="btn-book">BOOK NOW</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- start Welcome section -->
+    <section class="welcome">
+        <div class="welcome-content welcome-page-content position-relative d-flex align-items-center justify-content-center text-center"
+            style="background-image: url('./assets/images/offers/offers-bg.jpg');">
+            <div class="position-relative">
+                <h4 class="tk-futura-pt text-uppercase text-medium wow animate__animated animate__fadeInUp"
+                    data-wow-duration="1s" data-wow-delay="1s">
+                    Stay & Accommodations
+                </h4>
+                <h1 class="tk-bookmania text-white wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                    data-wow-delay="1s">
+                    Offers
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!-- end Welcome section -->
+
+    <!-- Offers Content -->
+    <section class="offers-content pb-lg-4">
+        <div class="container container-8">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="offer-item">
+                        <div class="position-relative">
+                            <img src="assets/images/offers/1.jpg" alt="">
+                            <a href="#" class="button position-absolute">View Details</a>
+                        </div>
+                        <h4 class="tk-futura-pt offer-title text-uppercase">Georgia Aquarium Packages</h4>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="offer-item">
+                        <div class="position-relative">
+                            <img src="assets/images/offers/1.jpg" alt="">
+                            <a href="#" class="button position-absolute">View Details</a>
+                        </div>
+                        <h4 class="tk-futura-pt offer-title text-uppercase">Georgia Aquarium Packages</h4>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="offer-item">
+                        <div class="position-relative">
+                            <img src="assets/images/offers/1.jpg" alt="">
+                            <a href="#" class="button position-absolute">View Details</a>
+                        </div>
+                        <h4 class="tk-futura-pt offer-title text-uppercase">Georgia Aquarium Packages</h4>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="offer-item">
+                        <div class="position-relative">
+                            <img src="assets/images/offers/1.jpg" alt="">
+                            <a href="#" class="button position-absolute">View Details</a>
+                        </div>
+                        <h4 class="tk-futura-pt offer-title text-uppercase">Georgia Aquarium Packages</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Offers Content -->
+
+    <!-- start Add your Page section -->
+    <section class="add-your-page position-relative see-us shop-atlanta">
+        <div class="container">
+            <div class="ap-sliders">
+                <div class="add-page d-md-flex align-items-center">
+                    <div class="ap-txt pair-border">
+                        <h3 class="title text-start wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                            data-wow-delay=".5s">
+                            Have a Question?
+                        </h3>
+                        <div class="wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                            data-wow-delay=".5s">
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore
+                                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                                ea rebum. Stet clita kasd
+                                gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                                amet, consetetur sadipscing
+                                elitr.
+                            </p>
+                            <a href="#" class="button">View Amenities</a>
+                        </div>
+                    </div>
+                    <div class="ap-img wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                        data-wow-delay=".5s">
+                        <img src="assets/images/room-suites/2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Add your Page section -->
+
+    <!-- start Footer section -->
+    <footer class="footer">
+        <img class="position-absolute w-100 h-100 top-0 left-0" src="assets/images/footer/shadow.png" alt="">
+        <div class="container container-4 position-relative">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-address">
+                        <a class="footer-logo wow animate__animated animate__fadeInUp" href="index.html"
+                            data-wow-duration="1s" data-wow-delay=".5s">
+                            <img src="assets/images/footer-logo.svg" alt="">
+                        </a>
+                        <p class="wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                            160 Ted Turner Dr NW <br>
+                            Atlanta, GA 30303
+                        </p>
+                        <ul class="wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                            <li>
+                                <span>Phone:</span> 404-688-8600
+                            </li>
+                            <li>
+                                <span>Fax:</span> 678-686-3327
+                            </li>
+                            <li>
+                                <span>Email:</span> <a class="email"
+                                    href="mailto:contact@americanatl.com">contact@americanatl.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-between footer-end">
+                        <div class="quick-links-wrapper">
+                            <h3 class="footer-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                                data-wow-delay=".5s">quick links</h3>
+                            <ul class="quick-links wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                                data-wow-delay=".5s">
+                                <li>
+                                    <a href="#">
+                                        Our History
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Rooms & Suites
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Dine
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Gallery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Accessibility
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Best Rates
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Hilton Honors
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-button">
+                            <a href="#" class="button button-alt wow animate__animated animate__fadeInUp">Book now</a>
+                            <span class="d-block"></span>
+                            <a href="#" class="button wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                                data-wow-delay=".5s">Directions</a>
+                            <div class="footer-social-icons wow animate__animated animate__fadeInUp"
+                                data-wow-duration="1s" data-wow-delay=".5s">
+                                <a href="#">
+                                    <img src="assets/images/icons/facebook.svg" alt="">
+                                </a>
+                                <a href="#"><img src="assets/images/icons/instagram.svg" alt=""></a>
+                                <a href="#"><img src="assets/images/icons/glass.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center tk-effra wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                data-wow-delay=".5s">
+                <p>Copyright 2023 The American Hotel</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end Footer section -->
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>

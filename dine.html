@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/zsi4lnl.css">
+
+    <!-- Title  -->
+    <title>Amenities</title>
+
+    <!-- CSS Files  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+</head>
+
+<body>
+
+    <!-- Off Canvas Menu  -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <nav>
+          <ul>
+            <li class="menu-item-has-children">
+              <a href="#">Stay & Accommodations</a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="room_suites.html">
+                    <span>
+                      <img
+                        src="./assets/images/icons/pattern-menu.svg"
+                        alt=""
+                      />
+                    </span>
+                    Rooms & Suites
+                  </a>
+                </li>
+                <li>
+                  <a href="amenities.html">
+                    <span>
+                      <img
+                        src="./assets/images/icons/pattern-menu.svg"
+                        alt=""
+                      />
+                    </span>
+                    Amenities
+                  </a>
+                </li>
+                <li>
+                  <a href="offers.html">
+                    <span>
+                      <img
+                        src="./assets/images/icons/pattern-menu.svg"
+                        alt=""
+                      />
+                    </span>
+                    Offers
+                  </a>
+                </li>
+                <li>
+                  <a href="faq.html">
+                    <span>
+                      <img
+                        src="./assets/images/icons/pattern-menu.svg"
+                        alt=""
+                      />
+                    </span>
+                    FAQs
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="dine.html">Dine</a></li>
+            <li><a href="history.html">Our History</a></li> 
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" class="btn-book">BOOK NOW</a></li>
+          </ul>
+        </nav> 
+      </div>
+    </div>
+
+    <!-- Header Start -->
+    <header class="header_main">
+      <div class="container-fluid">
+        <div class="row d-flex align-items-center">
+          <div class="col-5 col-md-3">
+            <div class="logo">
+              <a href="index.html">
+                <img src="./assets/images/common/logo.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-7 col-md-9">
+            <div>
+              <!-- <a class="btn-book" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            Link with href
+                        </a> -->
+              <a
+                href="#offcanvasExample"
+                class="toggle-icon"
+                data-bs-toggle="offcanvas"
+              >
+                <svg class="toggle-icon" viewBox="0 0 24 24">
+                  <path
+                    d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+                  ></path>
+                </svg>
+              </a>
+              <div class="header-menu">
+                <nav>
+                  <ul>
+                    <li class="menu-item-has-children">
+                      <a href="#">Stay & Accommodations</a>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="8.686"
+                        height="7.549"
+                        viewBox="0 0 8.686 7.549"
+                      >
+                        <path
+                          id="Path_515"
+                          data-name="Path 515"
+                          d="M-14450.879-12573.819l-3.871-6.333-3.964,6.333"
+                          transform="translate(-14450.452 -12573.554) rotate(180)"
+                          fill="none"
+                          stroke="#f7f7f4"
+                          stroke-width="1"
+                        />
+                      </svg>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="room_suites.html">
+                            <span>
+                              <img
+                                src="./assets/images/icons/pattern-menu.svg"
+                                alt=""
+                              />
+                            </span>
+                            Rooms & Suites
+                          </a>
+                        </li>
+                        <li>
+                          <a href="amenities.html">
+                            <span>
+                              <img
+                                src="./assets/images/icons/pattern-menu.svg"
+                                alt=""
+                              />
+                            </span>
+                            Amenities
+                          </a>
+                        </li>
+                        <li>
+                          <a href="offers.html">
+                            <span>
+                              <img
+                                src="./assets/images/icons/pattern-menu.svg"
+                                alt=""
+                              />
+                            </span>
+                            Offers
+                          </a>
+                        </li>
+                        <li>
+                          <a href="faq.html">
+                            <span>
+                              <img
+                                src="./assets/images/icons/pattern-menu.svg"
+                                alt=""
+                              />
+                            </span>
+                            FAQs
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="dine.html">Dine</a></li>
+                    <li><a href="history.html">Our History</a></li>
+
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" class="btn-book">BOOK NOW</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- start Welcome section -->
+    <section class="welcome dots-bg position-relative">
+        <div class="position-absolute w-100 h-100 left-0 top-0 pair-border"></div>
+        <div class="welcome-content dwc welcome-page-content position-relative d-flex align-items-center justify-content-center text-center"
+            style="background-image: url('./assets/images/shopping/welcome.jpg');">
+            <div class="position-relative">
+                <img class="welcome-img wow animate__animated animate__fadeInUp"
+                    src="assets/images/dine/welcome-logo.svg" alt="" data-wow-duration="1s" data-wow-delay="1s">
+                <h1 class="tk-bookmania text-white wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                    data-wow-delay="1s">
+                    Eat. Drink. Celebrate.
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!-- end Welcome section -->
+
+    <!-- Shopping Content -->
+    <section class="shopping-content dine-content">
+        <div class="collaborate atlanta-heart retail-therapy">
+            <div class="container container-2">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="collaborate-content-wrapper">
+                            <div class="three-border">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="text-white collaborate-content">
+                                <h3 class="title text-start wow animate__ animate__fadeInUp  animated"
+                                    data-wow-duration="1s" data-wow-delay=".5s">
+                                    Your Culinary Oasis
+                                </h3>
+                                <div class="wow animate__ animate__fadeInUp  animated" data-wow-duration="1s"
+                                    data-wow-delay=".5s">
+                                    <p>
+                                        Social 62 Restaurant & Lounge provides a place to consume and connect, where
+                                        innovative cocktails and novel cuisine are
+                                        served in social spaces rather than defined dining areas. We hope you will visit
+                                        soon and share in these unique
+                                        experiences that offer an abundance of originality!
+                                    </p>
+                                </div>
+                                <div class="d-flex mt-4 pt-2 pt-xl-3 align-items-center justify-content-between wow animate__ animate__fadeInUp  animated"
+                                    data-wow-duration="1s" data-wow-delay=".5s">
+                                    <div class="text-medium">
+                                        <p>
+                                            Sun–Thu: 4 pm–10 pm <br>
+                                            Fri–Sat: 4 pm–11 pm
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="button">
+                                            Reserve a Table
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="three-border">
+                                <span class="d-none"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="collaborate-img text-center text-lg-start wow animate__ animate__fadeInUp  ha-img animated"
+                            data-wow-duration="1s" data-wow-delay=".5s">
+                            <img src="assets/images/shopping/1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex images">
+            <img src="assets/images/dine/1.jpg" alt="">
+            <img src="assets/images/dine/1.jpg" alt="">
+            <img src="assets/images/dine/1.jpg" alt="">
+        </div>
+        <div class="dine-menu">
+            <div class="container container-6">
+                <div>
+                    <h3 class="title text-start">
+                        Menu
+                    </h3>
+                    <a href="#" class="button">
+                        Download our menu
+                    </a>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="dine-item tk-futura-pt">
+                                <h4 class="text-uppercase">
+                                    SMALL BITES AND
+                                    SHAREABLES
+                                </h4>
+                                <ul class="dine-list">
+                                    <li>+ add grilled/fried chicken $7</li>
+                                    <li>+ add shrimp $8</li>
+                                </ul>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">RED PEPPER HUMMUS (V) – $10</h5>
+                                    <p>
+                                        celery, baby carrots, olives, grilled flatbread
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        SWEET & STICKY PORK RIBS – $14
+                                    </h5>
+                                    <p>
+                                        southern style bbq sauce, scallions
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        PIMENTO DIP (V, GF) – $12
+                                    </h5>
+                                    <p>
+                                        kettle chips, pickled okra
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dine-item tk-futura-pt">
+                                <h4 class="text-uppercase">
+                                    SMALL BITES AND
+                                    SHAREABLES
+                                </h4>
+                                <ul class="dine-list">
+                                    <li>+ add grilled/fried chicken $7</li>
+                                    <li>+ add shrimp $8</li>
+                                </ul>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">RED PEPPER HUMMUS (V) – $10</h5>
+                                    <p>
+                                        celery, baby carrots, olives, grilled flatbread
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        SWEET & STICKY PORK RIBS – $14
+                                    </h5>
+                                    <p>
+                                        southern style bbq sauce, scallions
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        PIMENTO DIP (V, GF) – $12
+                                    </h5>
+                                    <p>
+                                        kettle chips, pickled okra
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dine-item tk-futura-pt">
+                                <h4 class="text-uppercase">
+                                    SMALL BITES AND
+                                    SHAREABLES
+                                </h4>
+                                <ul class="dine-list">
+                                    <li>+ add grilled/fried chicken $7</li>
+                                    <li>+ add shrimp $8</li>
+                                </ul>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">RED PEPPER HUMMUS (V) – $10</h5>
+                                    <p>
+                                        celery, baby carrots, olives, grilled flatbread
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        SWEET & STICKY PORK RIBS – $14
+                                    </h5>
+                                    <p>
+                                        southern style bbq sauce, scallions
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        PIMENTO DIP (V, GF) – $12
+                                    </h5>
+                                    <p>
+                                        kettle chips, pickled okra
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="dine-item tk-futura-pt">
+                                <h4 class="text-uppercase">
+                                    SMALL BITES AND
+                                    SHAREABLES
+                                </h4>
+                                <ul class="dine-list">
+                                    <li>+ add grilled/fried chicken $7</li>
+                                    <li>+ add shrimp $8</li>
+                                </ul>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">RED PEPPER HUMMUS (V) – $10</h5>
+                                    <p>
+                                        celery, baby carrots, olives, grilled flatbread
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        SWEET & STICKY PORK RIBS – $14
+                                    </h5>
+                                    <p>
+                                        southern style bbq sauce, scallions
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        PIMENTO DIP (V, GF) – $12
+                                    </h5>
+                                    <p>
+                                        kettle chips, pickled okra
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dine-item tk-futura-pt">
+                                <h4 class="text-uppercase">
+                                    SMALL BITES AND
+                                    SHAREABLES
+                                </h4>
+                                <ul class="dine-list">
+                                    <li>+ add grilled/fried chicken $7</li>
+                                    <li>+ add shrimp $8</li>
+                                </ul>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">RED PEPPER HUMMUS (V) – $10</h5>
+                                    <p>
+                                        celery, baby carrots, olives, grilled flatbread
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        SWEET & STICKY PORK RIBS – $14
+                                    </h5>
+                                    <p>
+                                        southern style bbq sauce, scallions
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        PIMENTO DIP (V, GF) – $12
+                                    </h5>
+                                    <p>
+                                        kettle chips, pickled okra
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dine-item disclaimer tk-futura-pt">
+                                <h5 class="text-uppercase text-medium">DISCLAIMER</h5>
+                                <p>
+                                    *Consuming raw or under cooked meats, poultry, seafood, shellfish or eggs may
+                                    increase
+                                    your risk of food borne
+                                    illness.
+                                    As each dish is carefully crafted, we kindly ask that you refrain from
+                                    modifications.
+                                    Please alert your server
+                                    of any
+                                    dietary restrictions or allergies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title text-start">
+                        Drinks
+                    </h3>
+                    <a href="#" class="button">
+                        Download our menu
+                    </a>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="dine-item tk-futura-pt">
+                                <h4 class="text-uppercase">
+                                    SMALL BITES AND
+                                    SHAREABLES
+                                </h4>
+                                <ul class="dine-list">
+                                    <li>+ add grilled/fried chicken $7</li>
+                                    <li>+ add shrimp $8</li>
+                                </ul>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">RED PEPPER HUMMUS (V) – $10</h5>
+                                    <p>
+                                        celery, baby carrots, olives, grilled flatbread
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        SWEET & STICKY PORK RIBS – $14
+                                    </h5>
+                                    <p>
+                                        southern style bbq sauce, scallions
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        PIMENTO DIP (V, GF) – $12
+                                    </h5>
+                                    <p>
+                                        kettle chips, pickled okra
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dine-item tk-futura-pt">
+                                <h4 class="text-uppercase">
+                                    SMALL BITES AND
+                                    SHAREABLES
+                                </h4>
+                                <ul class="dine-list">
+                                    <li>+ add grilled/fried chicken $7</li>
+                                    <li>+ add shrimp $8</li>
+                                </ul>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">RED PEPPER HUMMUS (V) – $10</h5>
+                                    <p>
+                                        celery, baby carrots, olives, grilled flatbread
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        SWEET & STICKY PORK RIBS – $14
+                                    </h5>
+                                    <p>
+                                        southern style bbq sauce, scallions
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        PIMENTO DIP (V, GF) – $12
+                                    </h5>
+                                    <p>
+                                        kettle chips, pickled okra
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dine-item tk-futura-pt">
+                                <h4 class="text-uppercase">
+                                    SMALL BITES AND
+                                    SHAREABLES
+                                </h4>
+                                <ul class="dine-list">
+                                    <li>+ add grilled/fried chicken $7</li>
+                                    <li>+ add shrimp $8</li>
+                                </ul>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">RED PEPPER HUMMUS (V) – $10</h5>
+                                    <p>
+                                        celery, baby carrots, olives, grilled flatbread
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        SWEET & STICKY PORK RIBS – $14
+                                    </h5>
+                                    <p>
+                                        southern style bbq sauce, scallions
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        PIMENTO DIP (V, GF) – $12
+                                    </h5>
+                                    <p>
+                                        kettle chips, pickled okra
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="dine-item tk-futura-pt">
+                                <h4 class="text-uppercase">
+                                    SMALL BITES AND
+                                    SHAREABLES
+                                </h4>
+                                <ul class="dine-list">
+                                    <li>+ add grilled/fried chicken $7</li>
+                                    <li>+ add shrimp $8</li>
+                                </ul>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">RED PEPPER HUMMUS (V) – $10</h5>
+                                    <p>
+                                        celery, baby carrots, olives, grilled flatbread
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        SWEET & STICKY PORK RIBS – $14
+                                    </h5>
+                                    <p>
+                                        southern style bbq sauce, scallions
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        PIMENTO DIP (V, GF) – $12
+                                    </h5>
+                                    <p>
+                                        kettle chips, pickled okra
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dine-item tk-futura-pt">
+                                <h4 class="text-uppercase">
+                                    SMALL BITES AND
+                                    SHAREABLES
+                                </h4>
+                                <ul class="dine-list">
+                                    <li>+ add grilled/fried chicken $7</li>
+                                    <li>+ add shrimp $8</li>
+                                </ul>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">RED PEPPER HUMMUS (V) – $10</h5>
+                                    <p>
+                                        celery, baby carrots, olives, grilled flatbread
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        SWEET & STICKY PORK RIBS – $14
+                                    </h5>
+                                    <p>
+                                        southern style bbq sauce, scallions
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="text-uppercase text-medium">
+                                        PIMENTO DIP (V, GF) – $12
+                                    </h5>
+                                    <p>
+                                        kettle chips, pickled okra
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dine-item disclaimer tk-futura-pt">
+                                <h5 class="text-uppercase text-medium">DISCLAIMER</h5>
+                                <p>
+                                    *Consuming raw or under cooked meats, poultry, seafood, shellfish or eggs may
+                                    increase
+                                    your risk of food borne
+                                    illness.
+                                    As each dish is carefully crafted, we kindly ask that you refrain from
+                                    modifications.
+                                    Please alert your server
+                                    of any
+                                    dietary restrictions or allergies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dm-images">
+                <div class="dmi-1" style="background-image: url('assets/images/dine/2.jpg');"></div>
+                <div class="dmi-2" style="background-image: url('assets/images/dine/3.jpg');"></div>
+                <div class="dmi-3" style="background-image: url('assets/images/dine/4.jpg');"></div>
+                <div class="dmi-4" style="background-image: url('assets/images/dine/5.jpg');">
+                </div>
+                <div class="dmi-5" style="background-image: url('assets/images/dine/6.jpg');">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Shopping Content -->
+
+    <section class="outdoor-pool">
+        <div class="container diff-1 container-8">
+            <div class="slider-3 owl-carousel">
+                <div class="gs-item">
+                    <img src="assets/images/gallery/1.jpg" alt="">
+                </div>
+                <div class="gs-item">
+                    <img src="assets/images/gallery/1.jpg" alt="">
+                </div>
+                <div class="gs-item">
+                    <img src="assets/images/gallery/1.jpg" alt="">
+                </div>
+            </div>
+            <div class="text-center gi-para">
+                <h4 class="tk-bookmania">
+                    Outdoor pool
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                    ut
+                    labore et dolore
+                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    Stet clita kasd
+                    gubergren, no sea.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- start Footer section -->
+    <footer class="footer">
+        <img class="position-absolute w-100 h-100 top-0 left-0" src="assets/images/footer/shadow.png" alt="">
+        <div class="container container-4 position-relative">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-address">
+                        <a class="footer-logo wow animate__animated animate__fadeInUp" href="index.html"
+                            data-wow-duration="1s" data-wow-delay=".5s">
+                            <img src="assets/images/footer-logo.svg" alt="">
+                        </a>
+                        <p class="wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                            160 Ted Turner Dr NW <br>
+                            Atlanta, GA 30303
+                        </p>
+                        <ul class="wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                            <li>
+                                <span>Phone:</span> 404-688-8600
+                            </li>
+                            <li>
+                                <span>Fax:</span> 678-686-3327
+                            </li>
+                            <li>
+                                <span>Email:</span> <a class="email"
+                                    href="mailto:contact@americanatl.com">contact@americanatl.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-between footer-end">
+                        <div class="quick-links-wrapper">
+                            <h3 class="footer-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                                data-wow-delay=".5s">quick links</h3>
+                            <ul class="quick-links wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                                data-wow-delay=".5s">
+                                <li>
+                                    <a href="#">
+                                        Our History
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Rooms & Suites
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Dine
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Gallery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Accessibility
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Best Rates
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Hilton Honors
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-button">
+                            <a href="#" class="button button-alt wow animate__animated animate__fadeInUp">Book now</a>
+                            <span class="d-block"></span>
+                            <a href="#" class="button wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                                data-wow-delay=".5s">Directions</a>
+                            <div class="footer-social-icons wow animate__animated animate__fadeInUp"
+                                data-wow-duration="1s" data-wow-delay=".5s">
+                                <a href="#">
+                                    <img src="assets/images/icons/facebook.svg" alt="">
+                                </a>
+                                <a href="#"><img src="assets/images/icons/instagram.svg" alt=""></a>
+                                <a href="#"><img src="assets/images/icons/glass.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center tk-effra wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                data-wow-delay=".5s">
+                <p>Copyright 2023 The American Hotel</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end Footer section -->
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>

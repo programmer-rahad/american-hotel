@@ -1,0 +1,816 @@
+@media(min-width: 480px) {
+    .book-space>div {
+        display: flex;
+    }
+}
+
+@media(min-width: 992px) {
+    .quick-links-wrapper {
+        margin-left: 30px
+    }
+
+    .contact-left form {
+        padding-right: 2px;
+        margin-top: -30px;
+    }
+
+    .contact-right>div {
+        padding-left: 25px;
+    }
+}
+
+@media(min-width: 992px)and (max-width: 1199px) {
+    .bn-item {
+        padding-left: 30px;
+        padding-right: 30px
+    }
+}
+
+@media(min-width: 1200px) {
+    .sub-menu {
+        transition: .3s
+    }
+
+    .menu-item-has-children:hover>svg {
+        transform: translateY(-50%) rotate(180deg)
+    }
+
+    .menu-item-has-children:hover>svg path {
+        stroke: #c08c14
+    }
+}
+
+@media(max-width: 1700.98px) {
+    .apf-accordion .img-4 {
+        max-width: 550px;
+    }
+}
+
+@media(max-width: 1650.98px) {
+    .eat-drink-celebrate .container {
+        padding-left: 130px;
+        padding-right: 100px
+    }
+
+    .eat-drink-celebrate .title {
+        text-align: left
+    }
+
+    .eat-drink-celebrate.pair-border::before {
+        height: calc(100% - 92px);
+        width: calc(100% - 158px)
+    }
+
+    .eat-drink-celebrate.pair-border::after {
+        height: calc(100% - 114px);
+        width: calc(100% - 134px)
+    }
+
+    .ea-inner>div:last-child {
+        max-width: 680px;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 1550.98px) {
+    .ea-inner>div:last-child {
+        max-width: 620px;
+    }
+}
+
+@media(max-width: 1500.98px) {
+    .header-menu ul li {
+        margin-left: 30px
+    }
+}
+
+@media(max-width: 1458.98px) {
+    .header-menu ul li a.btn-book {
+        padding: 14px 32px
+    }
+
+    .header-menu ul li {
+        margin-left: 20px
+    }
+
+    .header-menu ul li a {
+        font-size: 20px
+    }
+
+    .logo {
+        max-width: 280px
+    }
+
+    .additional-amenities .container {
+        max-width: calc(100% - 50px);
+    }
+}
+
+@media(max-width: 1340.98px) {
+    .add-your-page .owl-dots {
+        right: 0;
+        left: 0;
+        bottom: -50px;
+        text-align: center
+    }
+
+    .add-your-page .owl-dot {
+        width: 30px;
+        height: 2px;
+        display: inline-block;
+        margin-top: 0px;
+        margin-right: 10px
+    }
+
+    .add-your-page .owl-dot.active {
+        width: 30px;
+        height: 3px
+    }
+
+    .btn-book {
+        display: none !important
+    }
+
+    .container.diff-1 {
+        max-width: calc(100% - 100px);
+    }
+
+    .ea-inner>div:first-child {
+        max-width: 500px;
+    }
+
+    .ea-inner>div:last-child {
+        max-width: 560px;
+    }
+
+}
+
+@media(max-width: 1250.98px) {
+    .month-date input {
+        font-size: 47px;
+    }
+}
+
+@media(max-width: 1199.98px) {
+    .menu-item-has-children>svg {
+        transform: rotate(0deg);
+        top: 14px;
+        transition-duration: .5s;
+        margin-left: 0;
+        position: absolute;
+    }
+
+    .menu-item-has-children:hover>svg path {
+        stroke: #c08c14
+    }
+
+    .sub-menu {
+        position: static;
+        display: none;
+        visibility: visible;
+        opacity: 1;
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+
+    .sub-menu li a {
+        padding: 7px 20px;
+        font-size: 22px;
+        text-decoration: none
+    }
+
+    .title {
+        font-size: 60px
+    }
+
+    .wc-wrapper::after {
+        display: none;
+    }
+
+    .wc-content {
+        padding-top: 75px;
+        padding-bottom: 65px
+    }
+
+    .header_main {
+        padding-left: 5px;
+        padding-right: 5px
+    }
+
+    .header-menu {
+        display: none !important
+    }
+
+    .toggle-icon {
+        display: block;
+        margin-left: auto
+    }
+
+    .add-your-page {
+        padding-top: 140px;
+        padding-bottom: 135px
+    }
+
+    .eat-drink-celebrate {
+        min-height: 800px
+    }
+
+    .month-date input {
+        font-size: 42px
+    }
+
+    .apf-accordion .accordion__content .col-lg-2 {
+        opacity: 0;
+    }
+
+    .apf-accordion .accordion__title h3 {
+        font-size: 85px;
+    }
+
+    .apf-accordion .accordion__title img {
+        max-width: 88px;
+    }
+
+    .apf-accordion .accordion__content::after {
+        display: none;
+    }
+
+    .contact {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .dp-content {
+        padding-bottom: 45px;
+    }
+
+    .parking {
+        padding-bottom: 10px;
+        margin-bottom: 35px;
+    }
+
+    .slider-3 .owl-next,
+    .slider-3 .owl-prev {
+        width: 35px;
+    }
+
+    .faq-accordion h3 {
+        font-size: 38px;
+    }
+
+    .dp-content {
+        padding-bottom: 85px;
+    }
+
+    .book-space .button {
+        margin-bottom: 80px;
+    }
+
+    .event-item .title {
+        font-size: 90px;
+    }
+
+    .event-item p {
+        font-size: 19px;
+    }
+
+    .events-accordion {
+        padding-top: 90px;
+    }
+
+    .ea-inner>div:first-child {
+        max-width: 450px;
+    }
+
+    .ea-inner>div:last-child {
+        max-width: 500px;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .title {
+        font-size: 50px
+    }
+
+    .button {
+        font-size: 15px;
+        padding: 12px 28px
+    }
+
+    .logo {
+        max-width: 280px
+    }
+
+    .welcome-content {
+        min-height: 650px
+    }
+
+    .welcome-content h3 {
+        font-size: 20px
+    }
+
+    .welcome-content h1 {
+        font-size: 65px;
+        margin-top: 30px
+    }
+
+    .book-now-wrapper {
+        margin-bottom: -223px
+    }
+
+    .book-now {
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .month-date input {
+        font-size: 30px
+    }
+
+    .checkout::after {
+        display: none
+    }
+
+    .add-your-page {
+        padding-top: 280px;
+        padding-bottom: 110px
+    }
+
+    .collaborate {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .collaborate-content-wrapper {
+        margin-right: auto;
+        margin-top: 50px
+    }
+
+    .atlanta-heart .collaborate-content-wrapper {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .collaborate-content {
+        padding-top: 50px;
+        padding-bottom: 43px
+    }
+
+    .collaborate-img {
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .explore-atlanta {
+        padding-bottom: 50px
+    }
+
+    .ea-item {
+        margin-bottom: 70px
+    }
+
+    .footer-logo {
+        max-width: 330px;
+        margin-bottom: 36px
+    }
+
+    .atlantas-past-future {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+
+    .apf-accordion .accordion__title img {
+        max-width: 70px;
+    }
+
+    .welcome-page-content h4 {
+        font-size: 20px;
+    }
+
+    .offers-content {
+        padding-top: 95px;
+    }
+
+    .contact {
+        padding-top: 65px;
+        padding-bottom: 75px;
+    }
+
+    .contact-bottom {
+        min-height: 450px;
+    }
+
+    .contact .right {
+        margin-top: 60px;
+    }
+
+    .faq-accordion {
+        padding-top: 75px;
+    }
+
+    .faq-accordion h3 {
+        font-size: 34px;
+    }
+
+    .dp-content {
+        padding-bottom: 70px;
+    }
+
+    .event-item .title {
+        font-size: 75px;
+    }
+
+    .event-item p {
+        font-size: 17px;
+    }
+
+    .events-accordion {
+        padding-top: 75px;
+    }
+
+    .shop-atlanta {
+        margin-top: 10px;
+    }
+
+    .ea-inner>div:first-child {
+        max-width: 100%
+    }
+
+    .ea-inner>div:last-child {
+        display: none;
+    }
+
+    .mobile-img {
+        max-width: 600px;
+        width: calc(100% - 50px);
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 0px;
+        mix-blend-mode: multiply;
+        padding-bottom: 25px;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .title {
+        font-size: 45px
+    }
+
+    .header_main {
+        padding-left: 2px;
+        padding-right: 2px
+    }
+
+    .logo {
+        max-width: 215px
+    }
+
+    .atlantas-past-future {
+        padding-top: 70px;
+        padding-bottom: 65px;
+    }
+
+    .dp-item {
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 47px;
+    }
+
+    .eat-drink-celebrate {
+        min-height: 700px
+    }
+
+    .eat-drink-celebrate .container {
+        padding-left: 110px
+    }
+
+    .eat-drink-celebrate.pair-border::before {
+        height: calc(100% - 62px);
+        width: calc(100% - 128px)
+    }
+
+    .eat-drink-celebrate.pair-border::after {
+        height: calc(100% - 84px);
+        width: calc(100% - 104px)
+    }
+
+    .social-img {
+        max-width: 280px
+    }
+
+    .footer-end {
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .footer-address {
+        max-width: 450px;
+        margin: 0 auto 60px
+    }
+
+    .apf-accordion .aic-4 {
+        margin-left: 200px;
+    }
+
+    .scroll-to-top {
+        font-size: 17px;
+    }
+
+    .scroll-to-top img {
+        width: 70px;
+    }
+
+    .apf-accordion .img-3 {
+        max-width: 350px;
+    }
+
+    .apf-accordion .img-4 {
+        max-width: 500px;
+    }
+
+    .style-3 {
+        width: 140px;
+    }
+
+    .room-suites-content .section-title {
+        /* margin-top: 70px; */
+    }
+
+    .single-room {
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .offer-title {
+        font-size: 27px;
+    }
+
+    .slider-3 .owl-next,
+    .slider-3 .owl-prev {
+        width: 30px;
+    }
+
+    .faq-accordion h3 {
+        font-size: 30px;
+    }
+
+    .add-your-page {
+        padding-top: 280px;
+        padding-bottom: 80px;
+    }
+
+    .scroll-to-top {
+        margin-bottom: 75px;
+    }
+
+    .see-us .add-page .ap-txt {
+        padding-bottom: 80px;
+    }
+
+    .dp-content {
+        padding-bottom: 45px;
+    }
+
+    .event-item .title {
+        font-size: 60px;
+    }
+
+    .event-item p {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .alt .add-page .ap-txt {
+        padding-left: 45px;
+        padding-right: 35px;
+    }
+
+    .events-accordion {
+        padding-top: 70px;
+    }
+
+
+}
+
+@media(max-width: 575.98px) {
+    .title {
+        font-size: 40px
+    }
+
+    .welcome-content {
+        min-height: 550px
+    }
+
+    .welcome-content h1 {
+        font-size: 50px;
+        margin-top: 20px
+    }
+
+    .welcome-content h3 {
+        font-size: 19px
+    }
+
+    .welcome-page-content h4 {
+        font-size: 18px;
+    }
+
+    .button {
+        font-size: 13px;
+        padding: 11px 26px
+    }
+
+    .eat-drink-celebrate .container {
+        padding-left: 80px
+    }
+
+    .eat-drink-celebrate.pair-border::before {
+        height: calc(100% - 42px);
+        width: calc(100% - 108px)
+    }
+
+    .eat-drink-celebrate.pair-border::after {
+        height: calc(100% - 64px);
+        width: calc(100% - 84px)
+    }
+
+    .apf-accordion .accordion__title h3 {
+        margin-left: 0;
+        font-size: 65px;
+    }
+
+    .accordion-buttons {
+        max-width: 470px;
+
+    }
+
+    .accordion-buttons a {
+        padding: 11px 20px;
+    }
+
+    .apf-accordion .img-1 {
+        max-width: 340px;
+    }
+
+    .style-1 {
+        max-width: 130px;
+    }
+
+    .apf-accordion .img-2 {
+        max-width: 310px;
+    }
+
+    .apf-accordion .aic-4 {
+        margin-left: 130px;
+    }
+
+    .apf-accordion .img-4 {
+        max-width: 350px;
+    }
+
+    .apf-accordion .img-3 {
+        max-width: 260px;
+    }
+
+    .apf-accordion .img-5 {
+        max-width: 320px;
+    }
+
+    .bg-style-2 {
+        background-color: #8BA3AD;
+        padding: 15px 65px;
+    }
+
+    .see-us .add-page .ap-txt {
+        padding-left: 55px;
+        padding-right: 20px;
+    }
+
+    .contact-bottom {
+        min-height: 375px;
+    }
+
+    .contact-title {
+        font-size: 38px;
+    }
+
+    .slider-3 .owl-next,
+    .slider-3 .owl-prev {
+        width: 20px;
+    }
+
+    .footer-logo {
+        max-width: 290px;
+    }
+
+    .container.diff-1 {
+        max-width: calc(100% - 50px);
+    }
+
+    .faq-accordion h3 {
+        font-size: 26px;
+    }
+
+    .book-now .nice-select .current {
+        font-size: 45px;
+    }
+
+    .event-item .title {
+        font-size: 50px;
+    }
+
+    .event-item p {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 479.98px) {
+    .title {
+        font-size: 35px;
+    }
+
+    .welcome-content h1 {
+        font-size: 40px;
+        margin-top: 20px
+    }
+
+    .welcome-page-content {
+        min-height: 400px;
+    }
+
+    .welcome-page-content h4 {
+        font-size: 15px;
+    }
+
+    .social-img {
+        max-width: 240px
+    }
+
+    .bn-item {
+        padding-left: 25px;
+        padding-right: 25px
+    }
+
+    .add-page .ap-txt {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #fff;
+        padding-left: 35px;
+        padding-right: 15px
+    }
+
+    .apf-accordion .accordion__title h3 {
+        font-size: 60px;
+    }
+
+    .apf-accordion .img-1 {
+        max-width: 300px;
+    }
+
+    .style-1 {
+        max-width: 130px;
+    }
+
+    .apf-accordion .img-2 {
+        max-width: 290px;
+    }
+
+    .see-us .add-page .ap-txt {
+        padding-left: 40px;
+    }
+
+    .footer-button .button {
+        font-size: 18px;
+        padding: 12px 30px;
+    }
+
+    .footer-social-icons img {
+        max-width: 85%;
+    }
+
+    .faq-accordion h3 {
+        font-size: 25px;
+    }
+
+    .book-now .nice-select .current {
+        font-size: 40px;
+    }
+
+    .event-item:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .alt .add-page .ap-txt {
+        padding-left: 30px;
+    }
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
